@@ -1,5 +1,6 @@
 {
   "runner.bootstrap": "vendor/autoload.php",
+  "runner.path": "tests/Benchmark",
   "report.generators": {
     "consumation_of_time": {
       "extends": "default",

@@ -4,8 +4,8 @@ namespace Acme;
 
 class TimeConsumer
 {
-    public function consume()
+    public function consume(int $time)
     {
-        usleep(200);
+        usleep($time);
     }
 }
